@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+.div1{
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    position: absolute;
+
+    /*animation property*/
+    animation-name: batch3;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes batch3{
+    0%{
+      left: 0;
+      top: 0;
+      background-image: linear-gradient(orange,indigo);
+    }
+    25%{
+      left: 400px;
+      top: 0;
+      background-image: linear-gradient(indigo,red);
+    }
+    50%{
+      left: 400px;
+      top: 400px;
+      background-image: linear-gradient(red,blue);
+    }
+    75%{
+      left: 0;
+      top: 400px;
+      background-image: linear-gradient(blue,yellowgreen);
+    }
+    100%{
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(yellowgreen,orange);
+    }
+}
