@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: aqua;
+}
+.flex-container{
+    display: flex;
+}
+header ul{
+list-style-type: none;
+
+}
+header ul li{
+    display: inline;
+    margin-left: 50px;
+}
+header ul a {
+    color: red;
+    font-style: 18px;
+    text-decoration: none;
+}
+.left-header{
+    flex: 50%;
+}
+.right-header{
+    flex: 50%;
+}
+/*Nav css starts here */
+header{
+    background-color: black;
+}
+.left-header{
+    flex: 50%;
+}
+.right-header{
+    flex: 50%;
+    text-align: center;
+}
+header.ul{
+    list-style-type: none;
+}
