@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: BACK;
+        
+        }
+        .container{
+            border-radius: 50PX;
+            height: auto;
+            width: 700px;
+            background-color: black;
+            font-size: 40px;
+            display: grid;
+            color: white;
+            grid-template-columns: 1 1 1 1;
+            grid-template-rows: 1 1 1 1 ;
+            column-gap: 20px;
+            row-gap: 20px;
+            padding: 10px;
+            margin: auto;
+        }
+        .item{
+            border-radius: 80%;
+            background-color:grey;
+            height: 80px;
+            color: wheat;
+            font-size: 40px;
+
+        }
+        .item1
+        {
+            text-align: center;
+            grid-column-start: 1;
+            grid-column-end: 5;
+            background-color: transparent;
+        }
+        button{
+            border: none;
+            cursor: pointer;
+        }
+        input[type="text"]
+        {
+            padding: 10px 20px ;
+            width: 90%;
+            height: 60px;
+            border-radius: 20px;
+            border: none;
+        }
+        .main
+        {
+            text-align: center;
+        }
+        .heading{
+            background-image: linear-gradient(blue,red);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            font-size: 90px;
+            text-transform: uppercase;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main"> <h1 class="heading">calculator</h1> </div>
+    <div class="container">
+        <div class="item item1"> <input type="text" name="" id=""></div>
+        <button class="item"> 7 </button>
+        <button class="item"> 8</button>
+        <button class="item"> 9</button>
+        <button class="item"> DEL </button>
+        <button class="item"> 4 </button>
+        <button class="item"> 5 </button>
+        <button class="item"> 6 </button>
+        <button class="item"> / </button>
+        <button class="item"> 1 </button>
+        <button class="item"> 2 </button>
+        <button class="item"> 3 </button>
+        <button class="item"> - </button>
+        <button class="item"> 0 </button>
+        <button class="item"> .</button>
+        <button class="item"> = </button>
+        <button class="item"> +</button>
+    </div>
+</body>
+</html>
